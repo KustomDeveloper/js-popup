@@ -62,7 +62,7 @@ const districtNumber = title.match(pattern);
 
 // Add content to elements
 closeBtn.innerHTML = "X";
-mainContent.innerHTML = `Benari Law Group has successfully helped clients reduce or dismiss their charges at District Court ${districtNumber[0]}. Need a tough defense attorney to fight for you? Get a free consult!`;
+mainContent.innerHTML = `Benari Law Group has successfully helped clients reduce or dismiss their charges at <span class="district-court">District Court ${districtNumber[0]}</span>. Need a tough defense attorney to fight for you? Get a free consult!`;
 phoneText.innerHTML = 'Click Button To Call Now ';
 phoneNum.innerHTML = phone;
 

@@ -28,7 +28,7 @@
 }
 .popupContent {
   color:#000;
-  font-size:20px;
+  font-size:19px;
   padding:35px;
   font-family: 'Bitter', serif;
 }
@@ -107,8 +107,9 @@
   cursor:pointer;
   background: #f83413;
 }
-
-
+.district-court {
+  color:#FF0000;
+}
 
 /*fadein*/
 @keyframes fadein {
