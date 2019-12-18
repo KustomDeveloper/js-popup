@@ -49,7 +49,11 @@ mainLogo.className = "mainLogo";
 phoneNum.href = `tel: ${tel}`;
 
 // Add img src
-mainLogo.src = 'http://localhost/benarilaw' + imagesDirectory + '/Benari-Law-Group-Logo.png';
+if(window.location.host === 'localhost') {
+  mainLogo.src = 'http://localhost/benarilaw' + imagesDirectory + '/Benari-Law-Group-Logo.png';
+} else {
+  mainLogo.src = imagesDirectory + '/Benari-Law-Group-Logo.png';
+}
 
 // Get h1 element 
 const title = document.querySelector('h1').textContent;

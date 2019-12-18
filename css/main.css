@@ -174,21 +174,22 @@
 
 @media only screen and (max-width: 640px) {
   .popupContainer {
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(12, 1fr);
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
     max-width: 100%;
     left:0;
+    top:50px;
   }
   .popupContent {
     grid-column: 1 / -1;
-    grid-row: 5 / -1;
+    grid-row: 7 / -1;
     font-size: 16px;
   }
   .popupImage {
     grid-column: 1 / -1;
     background-size: cover; 
     background-position: 0px -50px;
-    grid-row: 1 / 5;
+    grid-row: 1 / 7;
   }
   .phoneText {
     font-size: 20px;
